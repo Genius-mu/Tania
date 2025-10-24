@@ -1,0 +1,7 @@
+.header_container nav a {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header_container .col2 a {
+  color: #f00;
+}
