@@ -1,6 +1,7 @@
 import { Dock, Sailboat, Star } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router";
+import { motion } from "framer-motion";
 
 const Section1 = () => {
   const [Cards, setCards] = useState([
@@ -29,6 +30,19 @@ const Section1 = () => {
     },
   ]);
 
+  const cardVariants = {
+    hiddenLeft: { opacity: 0, x: -100, scale: 0.9 },
+    hiddenRight: { opacity: 0, x: 100, scale: 0.9 },
+    hiddenUp: { opacity: 0, y: 100, scale: 0.9 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      scale: 1,
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
+  };
+
   return (
     <>
       <section className="flex pt-[5%] pb-[5%] justify-center bg-white items-center w-full h-fit">
@@ -42,10 +56,15 @@ const Section1 = () => {
             </h2>
           </div>
           <div className="flex w-full flex-wrap sm:gap-y-6 md:gap-x-5 justify-center items-center h-fit">
-            {Cards.map((Card, i) => (
+            {Cards.map((Card, index) => (
               <>
-                <div
-                  key={i}
+                <motion.div
+                  key={index}
+                  variants={cardVariants}
+                  initial="hiddenRight"
+                  whileInView="visible"
+                  viewport={{ once: false, amount: 0.2 }}
+                  transition={{ delay: 0.3 }}
                   className="w-[100%] xl:w-[32%] md:w-[40%] flex flex-col gap-y-3 border-[#999] shadow-2xl justify-center items-center p-4"
                   // style={{ borderRight: `${Card.bord}` }}
                 >
@@ -62,7 +81,7 @@ const Section1 = () => {
                     {" "}
                     {Card.linkVal}{" "}
                   </Link>
-                </div>
+                </motion.div>
               </>
             ))}
           </div>

@@ -23,8 +23,13 @@
   --bg: hsl(0, 0%, 98%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 .cont1 {
