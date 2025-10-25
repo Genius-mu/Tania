@@ -22,7 +22,7 @@ const Section2 = () => {
         ),
         h2Val: "Blissful Renewal Day",
         pVal: "Finding solutions to complex needs",
-        bgVal: "/images/mas2.jpg",
+        bgVal: "/images/webp/mas2.webp",
       },
       {
         icon: (
@@ -30,13 +30,13 @@ const Section2 = () => {
         ),
         h2Val: "Inner Glow Detox",
         pVal: "Discovering the path to independence",
-        bgVal: "/images/mas1.jpg",
+        bgVal: "/images/webp/mas1.webp",
       },
       {
         icon: <History size={30} strokeWidth={1} color="#fff" fill="red" />,
         h2Val: "Moon & Soul Ritual",
         pVal: "Restoring the skills to rebuild your life",
-        bgVal: "/images/mas3.jpg",
+        bgVal: "/images/webp/mas3.webp",
       },
       {
         icon: (
@@ -44,7 +44,7 @@ const Section2 = () => {
         ),
         h2Val: "Serenity Starter",
         pVal: "Recovering ability, mobility and more",
-        bgVal: "/images/mas4.jpg",
+        bgVal: "/images/webp/mas4.webp",
       },
     ],
     [
@@ -52,7 +52,7 @@ const Section2 = () => {
         icon: <History size={30} strokeWidth={1} color="#fff" fill="red" />,
         h2Val: "Eternal Calm Therapy",
         pVal: "A gentle escape that melts away the tension of busy days",
-        bgVal: "/images/mas5.jpg",
+        bgVal: "/images/webp/mas5.webp",
       },
       {
         icon: (
@@ -60,7 +60,7 @@ const Section2 = () => {
         ),
         h2Val: "Aroma Heat Revival",
         pVal: "Feel the warmth, scent, and serenity reconnect within you",
-        bgVal: "/images/mas6.jpg",
+        bgVal: "/images/webp/mas6.webp",
       },
       {
         icon: (
@@ -73,7 +73,7 @@ const Section2 = () => {
         ),
         h2Val: "Ocean Breeze Detox",
         pVal: "A salt-infused massage that purifies the skin and clears the mind",
-        bgVal: "/images/mas7.jpg",
+        bgVal: "/images/webp/mas7.webp",
       },
       {
         icon: (
@@ -81,7 +81,7 @@ const Section2 = () => {
         ),
         h2Val: "Golden Harmony Ritual",
         pVal: "A fusion of touch and aroma that restores emotional balance",
-        bgVal: "/images/mas8.jpg",
+        bgVal: "/images/webp/mas8.webp",
       },
     ],
     [
@@ -91,13 +91,13 @@ const Section2 = () => {
         ),
         h2Val: "Celestial Stone Massage",
         pVal: "Hot basalt stones radiate warmth through your muscles for total renewal",
-        bgVal: "/images/mas9.jpg",
+        bgVal: "/images/webp/mas9.webp",
       },
       {
         icon: <History size={30} strokeWidth={1} color="#fff" fill="red" />,
         h2Val: "Tranquil Mind Escape",
         pVal: "A soothing blend of scalp, neck, and shoulder massage to reset your mind",
-        bgVal: "/images/mas10.jpg",
+        bgVal: "/images/webp/mas10.webp",
       },
       {
         icon: (
@@ -105,7 +105,7 @@ const Section2 = () => {
         ),
         h2Val: "Luxe Rejuvenation Ritual",
         pVal: "Full-body oil therapy that restores vitality and balance from within",
-        bgVal: "/images/mas11.jpg",
+        bgVal: "/images/webp/mas11.webp",
       },
       {
         icon: (
@@ -118,7 +118,7 @@ const Section2 = () => {
         ),
         h2Val: "Twilight Candle Therapy",
         pVal: "Warm candle oils and rhythmic touch for deep serenity and glowing skin",
-        bgVal: "/images/mas12.jpg",
+        bgVal: "/images/webp/mas12.webp",
       },
     ],
   ]);

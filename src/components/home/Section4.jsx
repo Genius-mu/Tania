@@ -8,17 +8,17 @@ const Section4 = () => {
     {
       h2Val: "Alex Hormozi",
       pVal: "Soft Tissue Therapist",
-      imgVal: "/images/user1.jpg",
+      imgVal: "/images/webp/user1.webp",
     },
     {
       h2Val: "Chris James",
       pVal: "Reflexology Therapist",
-      imgVal: "/images/user2.jpg",
+      imgVal: "/images/webp/user2.webp",
     },
     {
       h2Val: "Goslin Mane",
       pVal: "Massage Therapist",
-      imgVal: "/images/user3.jpg",
+      imgVal: "/images/webp/user3.webp",
     },
   ]);
 
