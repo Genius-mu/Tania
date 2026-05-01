@@ -55,7 +55,7 @@ const Section1 = () => {
               Complete Healing Experience
             </h2>
           </div>
-          <div className="flex w-full flex-wrap sm:gap-y-6 md:gap-x-5 justify-center items-center h-fit">
+          <div className="flex w-full flex-wrap overflow-hidden py-[3%] sm:gap-y-6 md:gap-x-5 justify-center items-center h-fit">
             {Cards.map((Card, index) => (
               <>
                 <motion.div
@@ -65,7 +65,7 @@ const Section1 = () => {
                   whileInView="visible"
                   viewport={{ once: false, amount: 0.2 }}
                   transition={{ delay: 0.3 }}
-                  className="w-[100%] xl:w-[32%] md:w-[40%] flex flex-col py-[9%] md:py-0 gap-y-3 border-[#999] shadow-2xl justify-center items-center p-4"
+                  className="w-[100%] xl:w-[32%] md:w-[40%] flex flex-col py-[9%] md:py-[3%] gap-y-3 border-[#999] shadow-2xl justify-center items-center p-4"
                   // style={{ borderRight: `${Card.bord}` }}
                 >
                   {Card.icon}
