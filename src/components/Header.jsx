@@ -32,7 +32,10 @@ const Header = () => {
   ];
 
   const socialLinks = [
-    { Icon: Facebook, href: "https://web.facebook.com/profile.php?id=61569519790447" },
+    {
+      Icon: Facebook,
+      href: "https://web.facebook.com/profile.php?id=61569519790447",
+    },
     { Icon: Twitter, href: "https://x.com/mustaphAdegbite" },
     { Icon: Linkedin, href: "https://www.linkedin.com/in/mustaphaadegbite/" },
     {
@@ -41,7 +44,6 @@ const Header = () => {
     },
   ];
 
-  // Detect scroll to add backdrop blur and shadow
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
