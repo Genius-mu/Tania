@@ -1,6 +1,3 @@
-Here's a comprehensive README that captures the project's character and gives anyone (including future-you) what they need to get up and running:
-markdown# Tania Salon & Spa
-
 > A sanctuary built for stillness — the digital home of a wellness brand twelve years in the making.
 
 A modern, editorial-style React website for a salon and spa, built with a focus on quiet luxury, refined typography, and conversion-driven booking flows. Every page is hand-crafted with attention to spacing, motion, and tone — no generic templates, no AI slop.
