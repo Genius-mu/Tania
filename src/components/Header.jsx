@@ -25,17 +25,22 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-x-[20px] text-sm font-medium">
-          {["Home", "About Us", "Packages", "Testimonials", "Pricing", "Blog"].map(
-            (item, index) => (
-              <a
-                key={index}
-                href="#"
-                className="text-black hover:text-red-600 transition-colors duration-200"
-              >
-                {item}
-              </a>
-            )
-          )}
+          {[
+            { name: "Home", link: "/" },
+            { name: "About Us", link: "about" },
+            { name: "Packages", link: "packages" },
+            { name: "Testimonials", link: "testimonials" },
+            { name: "Pricing", link: "pricing" },
+            { name: "Blog", link: "blog" },
+          ].map((item, index) => (
+            <a
+              key={index}
+              href={`/${item.link}`}
+              className="text-black hover:text-red-600 transition-colors duration-200"
+            >
+              {item.name}
+            </a>
+          ))}
         </nav>
 
         {/* Social Links */}
@@ -66,18 +71,23 @@ const Header = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-[5em] left-0 w-full bg-white shadow-md md:hidden flex flex-col items-center py-4 gap-4 text-sm font-medium z-40">
-          {["Home", "About Us", "Packages", "Testimonials", "Pricing", "Blog"].map(
-            (item, index) => (
-              <a
-                key={index}
-                href="#"
-                className="text-black hover:text-red-600 transition-colors duration-200"
-                onClick={() => setIsOpen(false)} // close menu when clicked
-              >
-                {item}
-              </a>
-            )
-          )}
+          {[
+            "Home",
+            "About Us",
+            "Packages",
+            "Testimonials",
+            "Pricing",
+            "Blog",
+          ].map((item, index) => (
+            <a
+              key={index}
+              href="#"
+              className="text-black hover:text-red-600 transition-colors duration-200"
+              onClick={() => setIsOpen(false)} // close menu when clicked
+            >
+              {item}
+            </a>
+          ))}
 
           <div className="flex gap-x-[20px] mt-4">
             <a href="">
