@@ -84,7 +84,7 @@ const About = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="w-full h-fit pt-[30px] pb-[30px] flex justify-center items-center">
+      <section className="w-full overflow-x-hidden h-fit pt-[30px] pb-[30px] flex justify-center items-center">
         <div
           className="p-[20px] w-[90%] h-[60vh] rounded-2xl flex sm:justify-center sm:items-center md:justify-start relative overflow-hidden"
           style={{
@@ -129,7 +129,7 @@ const About = () => {
       </section>
 
       {/* Our Story Section */}
-      <section className="flex pt-[5%] pb-[5%] justify-center items-center bg-white w-full h-fit">
+      <section className="flex overflow-x-hidden pt-[5%] pb-[5%] justify-center items-center bg-white w-full h-fit">
         <div className="flex xl:flex-row md:flex-row flex-col gap-x-10 gap-y-8 w-[90%] justify-between items-center">
           <motion.div
             variants={fadeVariants}

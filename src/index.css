@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-body {
-  overflow-x: hidden;
+body, #root {
+  overflow: hidden;
 }
 
 @layer base {
