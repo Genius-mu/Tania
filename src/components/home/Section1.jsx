@@ -55,7 +55,7 @@ const Section1 = () => {
               Complete Healing Experience
             </h2>
           </div>
-          <div className="flex w-full flex-wrap overflow-hidden py-[3%] sm:gap-y-6 md:gap-x-5 justify-center items-center h-fit">
+          <div className="flex w-full flex-wrap py-[3%] sm:gap-y-6 md:gap-x-5 justify-center items-center h-fit">
             {Cards.map((Card, index) => (
               <>
                 <motion.div
