@@ -36,7 +36,7 @@ const Header = () => {
     { Icon: Twitter, href: "https://x.com/mustaphAdegbite" },
     { Icon: Linkedin, href: "https://www.linkedin.com/in/mustaphaadegbite/" },
     {
-      Icon: Instagram,g
+      Icon: Instagram,
       href: "https://www.instagram.com/mustapha_the_website_developer/",
     },
   ];
